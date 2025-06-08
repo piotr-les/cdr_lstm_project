@@ -39,4 +39,4 @@ jupyter notebook
 ---
 
 **Wymagania**: Python 3.8+  
-**Główne biblioteki**: tensorflow, pandas, yfinance, sklearn
+**Główne biblioteki**: tensorflow, pandas, sklearn
