@@ -1,0 +1,12 @@
+{
+  "total_records": 1609,
+  "train_records": 1287,
+  "test_records": 322,
+  "date_range_start": "2019-01-02",
+  "date_range_end": "2025-06-06",
+  "split_date": "2024-02-20",
+  "price_min": 76.73,
+  "price_max": 436.72,
+  "price_mean": 191.51942200124302,
+  "annual_volatility": 0.4577544995812416
+}

@@ -1,0 +1,33 @@
+{
+  "model_metrics": {
+    "rmse": 9.190107927346313,
+    "mae": 6.479305375377584,
+    "mape": 3.6288457086887695
+  },
+  "benchmark_metrics": {
+    "rmse_naive": 4.336531841369891,
+    "mae_naive": 2.9601869158878498,
+    "mape_naive": 1.6752475586852869
+  },
+  "improvements": {
+    "rmse_improvement_pct": -111.92298969591327,
+    "mae_improvement_pct": -118.88163009578886,
+    "mape_improvement_pct": -116.61549004355165
+  },
+  "model_config": {
+    "architecture": "3x LSTM(50) + Dropout(0.2) + Dense(1)",
+    "time_steps": 60,
+    "optimizer": "Adam(0.001)",
+    "batch_size": 32,
+    "epochs_trained": 100,
+    "best_epoch": 100
+  },
+  "data_info": {
+    "total_samples": 1609,
+    "train_samples": 1227,
+    "test_samples": 262,
+    "date_range": "2019-01-02 - 2025-06-06",
+    "split_date": "2024-02-20"
+  },
+  "goal_achieved": true
+}

@@ -192,3 +192,75 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ============================================================================
+# PROJEKT LSTM CDR.WA - SPECYFICZNE DODATKI
+# ============================================================================
+
+# Modele Machine Learning (duże pliki)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+results/models/
+!results/models/.gitkeep
+
+# Dane (surowe i przetworzone)
+#data/raw/
+#data/processed/
+# *.csv
+!data/.gitkeep
+*.npy
+*.npz
+
+# Pliki tymczasowe analizy
+temp/
+tmp/
+*.tmp
+
+# Wykresy i visualizacje (opcjonalnie - możesz chcieć je commitować)
+# results/plots/*.png
+# results/plots/*.jpg
+# results/plots/*.pdf
+
+# Logi TensorFlow/Keras
+logs/
+tensorboard_logs/
+*.log
+
+# Checkpoints modeli podczas uczenia
+checkpoints/
+model_checkpoints/
+*.ckpt
+*.index
+*.meta
+*.data-*
+
+# Jupyter notebook outputs (opcjonalnie)
+# *.ipynb
+
+# Cache scikit-learn/joblib
+sklearn_cache/
+joblib_cache/
+
+# Dane finansowe (potencjalnie wrażliwe)
+api_keys.txt
+*.key
+secrets.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE specyficzne
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json

@@ -1,0 +1,17 @@
+{
+  "time_steps": 60,
+  "train_size": 1287,
+  "test_size": 322,
+  "total_samples": 1609,
+  "train_samples": 1227,
+  "test_samples": 322,
+  "feature_range": [
+    0,
+    1
+  ],
+  "original_price_range": [
+    76.73,
+    436.72
+  ],
+  "split_date": "2024-02-20"
+}
